@@ -5,8 +5,8 @@ let z = NaN;
 
 //string
 let str1: string;
-str1 = "Hello world";
-let sym1 = Symbol("as");
+str1 = 'Hello world';
+let sym1 = Symbol('as');
 
 //boolean
 let o = true;
@@ -18,13 +18,13 @@ let g: null = null;
 
 //literal
 const num = 108;
-const str2 = "str";
+const str2 = 'str';
 
 // universal
 let mm: any = 1;
-mm = "str";
+mm = 'str';
 mm = [];
 // can use only after correction
 let xx: unknown = 2;
-if (typeof xx === "string") xx.toUpperCase();
-xx = "str";
+if (typeof xx === 'string') xx.toUpperCase();
+xx = 'str';

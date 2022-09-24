@@ -12,6 +12,7 @@ const obj2 = {
 	y: '2',
 	z: '3',
 };
+
 printPoint(obj2);
 function printName(user) {
 	console.log('Hello', user.firstName.toUpperCase());
