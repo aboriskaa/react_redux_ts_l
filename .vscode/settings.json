@@ -1,0 +1,8 @@
+{
+	"cSpell.words": ["Abramov"],
+	"spellright.language": ["en", "ru"],
+	"spellright.documentTypes": ["markdown", "latex", "plaintext"],
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

@@ -15,8 +15,12 @@ const obj2 = {
 };
 printPoint(obj2);
 
-function printName(user: { firstName: string; lastName: string }): void {
+function printName(user: { firstName: string; lastName?: string }): void {
   console.log("Hello", user.firstName.toUpperCase());
-
-  console.log("Nice to meet you Mr.", user.lastName.toUpperCase());
+  if (user.lastName) {
+    console.log("Nice to meet you Mr.", user.lastName.toUpperCase());
+  }
 }
+
+printName({ firstName: "Boris" });
+printName({ firstName: "Boris", lastName: "Abramov" });
