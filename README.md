@@ -1,1 +1,1 @@
-# react_redux_ts_l
+# TypeScript React.js Redux.js
