@@ -1,7 +1,7 @@
 // Create interfaces User and Admin
 // Keys for User: login, email, password, isOnline, lastVisited
 // Keys for Admin: login, email, password, isOnline, lastVisited, role
-interface User {
+export interface User {
 	login: string;
 	email: string;
 	password: string;
