@@ -1,14 +1,12 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.cars = void 0;
 const numbers = [1, 2, 3, 4, true, ''];
 const strs = [];
 const strs2 = [];
 strs.push('asv');
-// interface Car {
-// 	wheels: number;
-// 	brand: string;
-// }
-const cars = [];
-cars.push({ brand: 'Audi', wheels: 3, type: '' });
+exports.cars = [];
+exports.cars.push({ brand: 'Audi', wheels: 3 });
 const arrOfArr = [];
 arrOfArr.push(['', '']);
 function printArr(arr) {

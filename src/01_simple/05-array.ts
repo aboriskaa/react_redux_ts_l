@@ -5,13 +5,14 @@ const strs2: Array<string> = [];
 
 strs.push('asv');
 
-// interface Car {
-// 	wheels: number;
-// 	brand: string;
-// }
+export interface Car {
+	wheels: number;
+	brand: string;
+	type?: string;
+}
 
-const cars: Car[] = [];
-cars.push({ brand: 'Audi', wheels: 3, type: '' });
+export const cars: Car[] = [];
+cars.push({ brand: 'Audi', wheels: 3 });
 
 const arrOfArr: string[][] = [];
 

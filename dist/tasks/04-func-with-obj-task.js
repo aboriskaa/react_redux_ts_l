@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const user1 = {
     login: 'boris',
     email: 'boris@boris.boris',
