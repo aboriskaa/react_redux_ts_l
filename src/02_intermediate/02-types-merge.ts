@@ -10,7 +10,7 @@ type Union5 = { a: string; b: string; c: number } & {
 
 // const example: Union5 = {};
 
-type User = {
+export type User = {
 	readonly email: string;
 	readonly login: string;
 	password: string;
