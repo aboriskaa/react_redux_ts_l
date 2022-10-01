@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.num = void 0;
 // numbers
 let x = 10;
 // let y = 1234n
@@ -14,7 +16,7 @@ o = false;
 let h = undefined;
 let g = null;
 //literal
-const num = 108;
+exports.num = 108;
 const str2 = 'str';
 // universal
 let mm = 1;

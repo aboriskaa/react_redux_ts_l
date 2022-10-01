@@ -1,0 +1,1 @@
+type WindowProp = keyof Window;

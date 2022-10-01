@@ -17,7 +17,7 @@ let h: undefined = undefined;
 let g: null = null;
 
 //literal
-const num = 108;
+export const num = 108;
 const str2 = 'str';
 
 // universal

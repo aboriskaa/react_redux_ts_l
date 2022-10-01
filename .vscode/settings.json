@@ -1,5 +1,5 @@
 {
-	"cSpell.words": ["Abramov"],
+	"cSpell.words": ["Abramov", "nums"],
 	"spellright.language": ["en", "ru"],
 	"spellright.documentTypes": ["markdown", "latex", "plaintext"],
 	"[javascript]": {
